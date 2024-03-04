@@ -1,0 +1,6 @@
+- 2 Broad cast Receiver registed
+    - Airplane Mode change Receiver
+    - "TEST_ACTION" intent action Receiver
+- Send Broadcast will send Broadcast with "TEST_ACTION" Intent action name
+- Registered broadcast with Android Manifest.
+
