@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.appsdeviser.workmanager"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.appsdeviser.workmanager"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -66,4 +66,8 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.2")
 }

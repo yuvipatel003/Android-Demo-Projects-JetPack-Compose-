@@ -1,0 +1,5 @@
+WorkManager
+- Chrome will share image with WorkManger app.
+- WorkManager app will process and compress that image and displays both images.
+- Activity will receive intent from chrome with image URI. and IT will pass URI to WorkMAnger to compress
+- WorkManager result will be updated in viewModel and UI will receive state from viewModel and update UI.
